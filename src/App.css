@@ -1,0 +1,73 @@
+/* General styles */
+body {
+  background-color: rgba(255, 255, 255, 0.377); /* Black background */
+  color: rgb(7, 7, 7); /* White font color */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: rgb(0, 0, 0); /* Dark grey for the navigation panel */
+}
+
+.nav-link {
+  color: rgb(255, 254, 254); /* White text for navigation links */
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  color: rgb(164, 76, 163); /* Orange hover effect for navigation links */
+}
+
+/* Header styling */
+h1, h2 {
+  color: rgb(0, 0, 0);
+}
+
+/* List styles (for skills page) */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Form submit button */
+button {
+  background-color: darkgrey;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: orange; /* Orange hover effect for buttons */
+}
+
+/* Input and textarea styles */
+input, textarea {
+  background-color: darkgrey; /* Dark grey input fields */
+  color: white; /* White text for input fields */
+  border: 1px solid white;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: white; /* White placeholder text */
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: orange; /* Orange border when focused */
+}
