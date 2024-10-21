@@ -8,7 +8,7 @@ function Home() {
       <center>
         <h1 style={{ marginBottom: '10px',marginTop: '30px' }}>Welcome to My Profile!</h1>
         </center>
-      <center><p>I want to be a Graphic Designer!</p></center>
+      <center><p>Aspiring to be a professional Graphic Designer!</p></center>
     </Container>
   );
 }
